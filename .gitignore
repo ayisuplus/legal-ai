@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地向量模型（约 95MB，从 ModelScope/HF 重新下载即可）
+data/models/
+
+# 语料向量缓存（首次运行自动重建）
+data/statute_embeddings.json
+
+# 审计日志与 benchmark 运行产物（可再生）
+examples/traces/
+examples/benchmark/traces/
+examples/benchmark/report.json
+
+# 工作区内部数据
+.workbuddy/
+
+# 临时文件
+*.tmp
+*.log
